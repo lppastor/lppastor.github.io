@@ -23,9 +23,9 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   height: 530px;
-  width: 700px;
+  width: 750px;
   padding: 20px;
-  background-color: #023535;
+  background-color: #023535bd;
   border-radius: 5%;
   border: 0.1em solid rgba(221, 220, 171, 0.7);
   box-shadow: 1px 1px 1px 1px rgba(227, 233, 243, 0.5);
@@ -36,8 +36,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 320px;
-  background-color: #015958;
+  width: 370px;
+  background-color: #015958af;
   border-radius: 3%;
 }
 
@@ -48,7 +48,7 @@ body {
   align-items: center;
   gap: 20px;
   width: 320px;
-  background-color: #015958;
+  background-color: #015958af;
   border-radius: 3%;
 }
 
@@ -138,6 +138,16 @@ body {
   box-shadow: 0 0 0 1px rgba(82, 82, 82, 0.2);
 }
 
+.curriculo {
+  background-color: #878f17;
+  box-shadow: 0 0 0 1px rgba(82, 82, 82, 0.2);
+}
+
+.projetos {
+  background-color: #bd5829;
+  box-shadow: 0 0 0 1px rgba(82, 82, 82, 0.2);
+}
+
 .stars {
   display: flex;
   justify-content: flex-end;
@@ -161,4 +171,23 @@ li {
 
 li p {
   font-size: 0.9rem;
+}
+
+.websites button {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  padding-left: 45px;
+  text-align: start;
+  text-decoration: none;
+}
+
+.websites a {
+  text-align: start;
+  text-decoration: none;
+}
+
+.social {
+  width: 20px;
 }
